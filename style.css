@@ -1,0 +1,471 @@
+
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+
+
+.hero{
+	width: 100%;
+	height: auto;
+	background-image: url(img/6.jpg);
+	background-size: cover;
+	background-position: center;
+	position: center;
+	overflow: hidden;
+	opacity: 1
+}
+
+.logo{
+	width: 20%;
+	height: 15%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+animation: logo 15s linear infinite;
+
+}
+
+
+
+@keyframes logo{
+	
+	0%{
+		opacity: 0;
+	
+	}
+	10%{
+		opacity: .25;
+	}
+
+	20%{
+		opacity: .50;
+	
+	}30%{
+		opacity: 1;
+	}
+	40%{
+		opacity: .50;
+	}
+	60%{
+		opacity: .25;
+	}
+	100%{
+		opacity: 0;
+	}
+
+}
+
+
+.title{
+	text-align: center;
+	opacity: 0.0;
+	animation: title 10s linear infinite 
+}
+
+
+@keyframes title{
+	
+	0%{
+		opacity: .0;
+	
+	}
+	10%{
+		opacity: .15;
+	}
+
+	20%{
+		opacity: .20;
+	
+	}30%{
+		opacity: .60;
+	}
+	40%{
+		opacity: .40;
+	}
+	60%{
+		opacity: .20;
+	}
+	100%{
+		opacity: .0;
+	}
+}
+
+
+
+	
+
+
+
+
+
+.story{
+	text-align: center;
+	font-size: 30px;
+	font-family: Helvatica;
+	
+	margin-left:20%;
+	margin-right:20%;
+	
+
+	
+}
+
+
+.sen1{
+	opacity: 0;
+	
+}
+
+.sen1:hover{
+animation: sen1 5s linear infinite
+}
+
+@keyframes sen1{
+	
+	0%{
+		opacity: 0;
+	
+	}
+	10%{
+		opacity: .05;
+	}
+
+	20%{
+		opacity: .20;
+	
+	}30%{
+		opacity: .40;
+	}
+	40%{
+		opacity: .60;
+	}
+	60%{
+		opacity: .80;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+.sen2{
+	opacity: 0
+}
+
+.sen2:hover{
+animation: sen2 5s linear infinite
+}
+
+@keyframes sen2{
+	
+	0%{
+		opacity: 0;
+	
+	}
+	10%{
+		opacity: .05;
+	}
+
+	20%{
+		opacity: .20;
+	
+	}30%{
+		opacity: .40;
+	}
+	40%{
+		opacity: .60;
+	}
+	60%{
+		opacity: .80;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+.sen3{
+	opacity: 0
+}
+
+.sen3:hover{
+animation: sen3 5s linear infinite
+}
+
+@keyframes sen3{
+	
+	0%{
+		opacity: 0;
+	
+	}
+	10%{
+		opacity: .05;
+	}
+
+	20%{
+		opacity: .20;
+	
+	}30%{
+		opacity: .40;
+	}
+	40%{
+		opacity: .60;
+	}
+	60%{
+		opacity: .80;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+.sen4{
+	opacity: 0
+}
+
+.sen4:hover{
+animation: sen4 5s linear infinite
+}
+
+@keyframes sen4{
+	
+	0%{
+		opacity: 0;
+	
+	}
+	10%{
+		opacity: .05;
+	}
+
+	20%{
+		opacity: .20;
+	
+	}30%{
+		opacity: .40;
+	}
+	40%{
+		opacity: .60;
+	}
+	60%{
+		opacity: .80;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+.sen5{
+	opacity: 0
+}
+
+.sen5:hover{
+animation: sen5 5s linear infinite
+}
+
+@keyframes sen5{
+	
+	0%{
+		opacity: 0;
+	
+	}
+	10%{
+		opacity: .05;
+	}
+
+	20%{
+		opacity: .20;
+	
+	}30%{
+		opacity: .40;
+	}
+	40%{
+		opacity: .60;
+	}
+	60%{
+		opacity: .80;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+.sen6{
+	opacity: 0
+}
+
+.sen6:hover{
+animation: sen6 5s linear infinite
+}
+
+@keyframes sen6{
+	
+	0%{
+		opacity: 0;
+	
+	}
+	10%{
+		opacity: .05;
+	}
+
+	20%{
+		opacity: .20;
+	
+	}30%{
+		opacity: .40;
+	}
+	40%{
+		opacity: .60;
+	}
+	60%{
+		opacity: .80;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+.sen7{
+	opacity: 0
+}
+
+.sen7:hover{
+animation: sen7 5s linear infinite
+}
+
+@keyframes sen7{
+	
+	0%{
+		opacity: 0;
+	
+	}
+	10%{
+		opacity: .05;
+	}
+
+	20%{
+		opacity: .20;
+	
+	}30%{
+		opacity: .40;
+	}
+	40%{
+		opacity: .60;
+	}
+	60%{
+		opacity: .80;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+.sen8{
+	opacity: 0
+}
+
+.sen8:hover{
+animation: sen8 5s linear infinite
+}
+
+@keyframes sen8{
+	
+	0%{
+		opacity: 0;
+	
+	}
+	10%{
+		opacity: .05;
+	}
+
+	20%{
+		opacity: .20;
+	
+	}30%{
+		opacity: .40;
+	}
+	40%{
+		opacity: .60;
+	}
+	60%{
+		opacity: .80;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+.sen9{
+	opacity: 0
+}
+
+.sen9:hover{
+animation: sen9 5s linear infinite
+}
+
+@keyframes sen9{
+	
+	0%{
+		opacity: 0;
+	
+	}
+	10%{
+		opacity: .05;
+	}
+
+	20%{
+		opacity: .20;
+	
+	}30%{
+		opacity: .40;
+	}
+	40%{
+		opacity: .60;
+	}
+	60%{
+		opacity: .80;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+.sen10{
+	opacity: 0
+}
+
+.sen10:hover{
+animation: sen10 5s linear infinite
+}
+
+@keyframes sen10{
+	
+	0%{
+		opacity: 0;
+	
+	}
+	10%{
+		opacity: .05;
+	}
+
+	20%{
+		opacity: .20;
+	
+	}30%{
+		opacity: .40;
+	}
+	40%{
+		opacity: .60;
+	}
+	60%{
+		opacity: .80;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
